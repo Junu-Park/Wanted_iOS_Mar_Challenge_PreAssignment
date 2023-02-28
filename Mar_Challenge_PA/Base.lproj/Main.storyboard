@@ -33,15 +33,10 @@
                                 <rect key="frame" x="324" y="116" width="56" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Load"/>
+                                <connections>
+                                    <action selector="LoadimgView1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wmd-DU-mvG"/>
+                                </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="5dc-ZZ-x3J">
-                                <rect key="frame" x="10" y="54" width="50" height="50"/>
-                                <color key="backgroundColor" red="0.225686729" green="0.87775868180000005" blue="0.39716973900000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="5dc-ZZ-x3J" secondAttribute="height" multiplier="1:1" id="ICW-Lz-Zwm"/>
-                                    <constraint firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="1.2:10" id="l7X-dX-mZW"/>
-                                </constraints>
-                            </imageView>
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="749" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="dJC-xY-xee">
                                 <rect key="frame" x="156" y="129" width="104" height="4"/>
                             </progressView>
@@ -105,6 +100,13 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Load"/>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" image="photo" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="5dc-ZZ-x3J">
+                                <rect key="frame" x="16" y="69.666666666666629" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="5dc-ZZ-x3J" secondAttribute="height" multiplier="1:1" id="ICW-Lz-Zwm"/>
+                                    <constraint firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="1.2:10" id="JMl-IH-x6O"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -159,6 +161,9 @@
                             <constraint firstItem="gTd-85-A3n" firstAttribute="leading" secondItem="DHR-H7-zef" secondAttribute="trailing" constant="10" id="yhY-eI-Che"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imgView1" destination="5dc-ZZ-x3J" id="Amh-0s-1Qh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -166,6 +171,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="photo" catalog="system" width="128" height="93"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
