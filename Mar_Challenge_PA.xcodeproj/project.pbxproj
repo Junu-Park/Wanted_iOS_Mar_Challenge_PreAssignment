@@ -288,7 +288,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Wanted_freeOnBoarding_iOS/Info.plist;
+				INFOPLIST_FILE = Mar_Challenge_PA/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Mar_Challenge_PA;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -317,7 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Wanted_freeOnBoarding_iOS/Info.plist;
+				INFOPLIST_FILE = Mar_Challenge_PA/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Mar_Challenge_PA;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
